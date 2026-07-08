@@ -9,53 +9,54 @@
 body{
     margin:0;
     font-family:Arial,sans-serif;
-    background:#f5f7fb;
+    background:#f4f6f9;
 }
 
 header{
-    background:#1e88e5;
+    background:#1976d2;
     color:white;
     text-align:center;
     padding:30px;
 }
 
 .container{
-    max-width:900px;
+    width:90%;
+    max-width:1000px;
     margin:auto;
     padding:20px;
 }
 
 .card{
     background:white;
-    margin:15px 0;
+    margin:20px 0;
     padding:20px;
     border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
 }
 
 h2{
     color:#1565c0;
 }
 
-button{
-    background:#1e88e5;
+.download-btn{
+    display:inline-block;
+    background:#1976d2;
     color:white;
-    border:none;
     padding:15px 30px;
-    font-size:18px;
+    text-decoration:none;
     border-radius:8px;
-    cursor:pointer;
+    font-size:18px;
 }
 
-button:hover{
+.download-btn:hover{
     background:#0d47a1;
 }
 
 footer{
-    text-align:center;
-    padding:20px;
     background:#1565c0;
     color:white;
+    text-align:center;
+    padding:20px;
     margin-top:40px;
 }
 </style>
@@ -65,31 +66,21 @@ footer{
 <body>
 
 <header>
-
 <h1>🎓 Student Toolkit</h1>
-
 <p>All Student Calculators in One App</p>
-
 </header>
 
 <div class="container">
 
 <div class="card">
-
 <h2>📱 Features</h2>
 
 <ul>
-
 <li>GPA Calculator</li>
-
 <li>Percentage Calculator</li>
-
 <li>Attendance Calculator</li>
-
 <li>Age Calculator</li>
-
 <li>Unit Converter</li>
-
 </ul>
 
 </div>
@@ -99,19 +90,8 @@ footer{
 <h2>About App</h2>
 
 <p>
-
-Student Toolkit is a free calculator app for students.
-
-It helps students calculate GPA,
-
-Percentage,
-
-Attendance,
-
-Age,
-
-and Unit Conversion quickly.
-
+Student Toolkit is a free calculator app specially created for students.
+It includes GPA, Percentage, Attendance, Age and Unit Converter.
 </p>
 
 </div>
@@ -120,9 +100,11 @@ and Unit Conversion quickly.
 
 <h2>Download App</h2>
 
-<p>APK Download Coming Soon...</p>
-<a href="https://github.com/beershabana/Student-Toolkit/raw/main/StudentToolkit%20(1).apk" download>
-    <button>Download APK</button>
+<p>Click below to download the latest APK.</p>
+
+<a class="download-btn"
+href="https://github.com/beershabana/Student-Toolkit/raw/main/StudentToolkit%20(1).apk">
+📥 Download APK
 </a>
 
 </div>
@@ -131,9 +113,10 @@ and Unit Conversion quickly.
 
 <footer>
 
-Created by Shabana Apps
+Created by Shabana Apps ❤️
 
 </footer>
 
 </body>
+
 </html>
